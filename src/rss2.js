@@ -95,6 +95,8 @@ exports.default = function(ins) {
       entry.author.map(function(author) {
         if (author.email && author.name) {
           item.author.push({ _text: author.email + ' (' + author.name + ')' })
+        } else if (author.name) {
+          item.push({ 'dc:creator': author.name })
         }
       })
     }
