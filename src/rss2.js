@@ -99,7 +99,7 @@ exports.default = function(ins) {
       })
     }
     if (entry.image) {
-      const type = new URL(entry.image).pathname.split('.')[1]
+      const type = new URL(entry.image).pathname.split('.').slice(-1)[0]
       item.enclosure = { _attributes: { url: entry.image, length: 0, type: `image/${type}` } }
     }
     base.rss.channel.item.push(item)
