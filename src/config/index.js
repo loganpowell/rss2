@@ -1,1 +1,3 @@
-export const generator = 'https://github.com/jpmonette/feed'
+const generator = 'https://github.com/jpmonette/feed'
+
+module.exports = { generator }
