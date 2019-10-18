@@ -34,7 +34,7 @@
     "blog"
   ],
   "license": "MIT",
-  "main": "src/rss2.js",
+  "main": "src/feed.js",
   "name": "rss2",
   "repository": {
     "type": "git",
