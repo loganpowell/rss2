@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Logan Powell",
+    "email": "loganp@tepper.cmu.edu"
+  },
+  "bugs": {
+    "url": "https://github.com/loganpowell/rss2/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Logan Powell",
+      "email": "loganp@tepper.cmu.edu",
+      "url": "http://census.gov/"
+    }
+  ],
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  },
+  "deprecated": false,
+  "description": "rss2 is a RSS, Atom and JSON rss2 generator for Node.js based on `feed`, but removes types and adds required image <enclosure> attributes for RSS2 readers",
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "homepage": "https://github.com/loganpowell/rss2",
+  "keywords": [
+    "rss",
+    "atom",
+    "rss2",
+    "syndication",
+    "xml",
+    "wrapper",
+    "blog"
+  ],
+  "license": "MIT",
+  "main": "src/rss2.js",
+  "name": "rss2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganpowell/rss2.git"
+  },
+  "scripts": {
+  },
+  "version": "0.1.0"
+}
