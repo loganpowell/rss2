@@ -19,8 +19,7 @@
   },
   "deprecated": false,
   "description": "rss2 is a RSS, Atom and JSON rss2 generator for Node.js based on `feed`, but removes types and adds required image <enclosure> attributes for RSS2 readers",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=8.0"
   },
@@ -41,7 +40,6 @@
     "type": "git",
     "url": "git+https://github.com/loganpowell/rss2.git"
   },
-  "scripts": {
-  },
-  "version": "0.1.0"
+  "scripts": {},
+  "version": "0.1.1"
 }
