@@ -92,12 +92,11 @@ exports.default = function(ins) {
     }
     if (Array.isArray(entry.author)) {
       item.author = []
-      item['dc:creator'] = []
       entry.author.map(function(author) {
         if (author.email && author.name) {
           item.author.push({ _text: author.email + ' (' + author.name + ')' })
         } else if (author.name) {
-          item['dc:creator'].push({ _text: author.name })
+          item.author.push({ _text: author.name })
         }
       })
     }
